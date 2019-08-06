@@ -9,6 +9,9 @@ type s
 [<Measure>]
 type kg
 
+[<Measure>]
+type N = kg * m / (s^2)
+
 type Vector2< [<Measure>] 'm> = { x:float<'m>; y:float<'m> }
 with
   static member Diag (k:float<'m>) : Vector2<'m> = { x=k; y=k }

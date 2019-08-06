@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="prelude.fs" />
+    <Compile Include="simple dynamics.fs" />
+    <Compile Include="planar dynamics.fs" />
+    <Compile Include="planar dynamics extended.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
